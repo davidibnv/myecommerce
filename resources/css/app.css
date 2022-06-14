@@ -1,0 +1,43 @@
+/* Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+/* Dropzone */
+@import 'dropzone/dist/dropzone.css';
+
+/* Glider JS */
+@import 'glider-js/glider.css';
+
+/* Flexslider */
+@import 'flexslider/flexslider.css';
+
+/* noUiSlider */
+@import 'nouislider/dist/nouislider.min.css';
+
+.noUi-horizontal .noUi-tooltip {
+    bottom: unset;
+}
+
+/* Tailwind Custom Styles */
+@layer components {
+    .container-menu {
+        @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    }
+
+    #navigation-menu{
+        height: calc(100vh - 4rem);
+    }
+
+    .navigation-link:hover .navigation-submenu{
+        display: block !important;
+    }
+
+    .form-control{
+        @apply border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md
+        shadow-sm;
+    }
+}

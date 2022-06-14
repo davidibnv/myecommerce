@@ -1,0 +1,244 @@
+DAVID IBAÑEZ NAVARRO - davidibnv
+
+Al subir el proyecto en mi última versión en un commit 
+dejo especificadas abajo las tareas que fui desarrollando desde el principio 
+y sus respectivas rutas de ficheros y las lineas donde se encuentra el codigo 
+de dicha tarea.
+
+
+TAREAS SEMANA 1:
+----------------
+
+- Tareas 1 y 2 
+
+Los cambios se encuentran en los ficheros: 
+(.env.dusk.local, composer.json[20], composer.lock[7,6466,6927], ExampleTest.php, HomePage.php, Page.php, DuskTestCase.php)
+
+
+- Tareas 3 y 4
+
+Los cambios se encuentran en los ficheros: 
+(navigation.blade.php[8], CategoryTest.php[15,31])
+
+
+
+
+
+TAREAS SEMANA 2:
+----------------
+
+- Tarea 1
+
+Los cambios se encuentran en los ficheros:
+(navigation.blade.php[25,55,149,162,170], LoginTest.php[19,37])
+
+
+- Tareas 2 y 3
+
+Los cambios se encuentran en los ficheros:
+(WelcomeTest.php[17, 41], TestHelpers.php[73])
+
+
+- Tarea 4
+
+Los cambios se encuentran en los ficheros:
+(welcome.blade.php[9], CategoryTest.php[50])
+
+
+- Tarea 5
+
+Los cambios se encuentran en los ficheros:
+(category-filter.blade.php[20,34], FilterProductsTest.php[16,44])
+
+
+- Tarea 6
+
+Los cambios se encuentran en los ficheros:
+(category-filter.blade.php[60], ShowProductsTest.php[16])
+
+
+- Tarea 7
+
+Los cambios se encuentran en los ficheros:
+(SizeFactory.php, show.blade.php[9], vistas de livewire, ShowProductsTest.php[36,65,105], TestHelpers.php[24,57,84])
+
+
+- Tarea 8
+
+Los cambios se encuentran en los ficheros:
+(vistas de livewire, ShowProductsTest.php[152,171])
+
+
+- Tarea 9
+
+Los cambios se encuentran en los ficheros:
+(ShowProductsTest.php[195,211,231])
+
+
+
+
+
+TAREAS SEMANA 3:
+----------------
+
+- Tarea 1
+
+Los cambios se encuentran en los ficheros:
+(dropdown-cart.blade.php[7,9], ShowProductsTest.php[318,336,362])
+
+
+- Tarea 2
+
+Los cambios se encuentran en los ficheros:
+(ShoppingCartTest.php[17])
+
+
+- Tarea 3
+
+Los cambios se encuentran en los ficheros:
+(ShoppingCartTest.php[44])
+
+
+- Tarea 4
+
+Los cambios se encuentran en los ficheros:
+(vistas de livewire, ShoppingCartTest.php[88,113,144])
+
+
+- Tarea 5
+
+Los cambios se encuentran en los ficheros:
+(ShowProductsTest.php[254,270,291])
+
+
+- Tarea 6
+
+Los cambios se encuentran en los ficheros:
+(FilterProductsTest.php[72,101,124])
+
+
+- Tarea 7
+
+Los cambios se encuentran en los ficheros:
+(ShoppingCartTest.php[63])
+
+
+- Tarea 8
+
+Los cambios se encuentran en los ficheros:
+(shopping-cart.blade[82,111], vistas de update-cart-item, ShoppingCartTest.php[179,204,232])
+
+
+- Tarea 9
+
+Los cambios se encuentran en los ficheros:
+(shopping-cart.blade, ShoppingCartTest.php[266,293])
+
+
+- Tarea 10
+
+Los cambios se encuentran en los ficheros:
+(OrdersTest.php[22])
+
+
+- Tarea 11
+
+Los cambios se encuentran en los ficheros:
+(ShoppingCartTest.php[316])
+
+
+- Tarea 12
+
+Los cambios se encuentran en los ficheros:
+(create-order.blade.php[35], OrdersTest.php[47,70])
+
+
+- Tarea 13
+
+Los cambios se encuentran en los ficheros:
+(create-order.blade.php[38,48,58,68,73], OrdersTest.php[93,126])
+
+
+- Tarea 14
+
+Los cambios se encuentran en los ficheros:
+(OrdersTest.php[176])
+
+
+
+
+
+TAREAS SEMANA 4:
+----------------
+
+- Tarea 1
+
+Los cambios se encuentran en los ficheros:
+(LoginTest.php[57,129,170])
+
+
+- Tarea 2
+
+Los cambios se encuentran en los ficheros:
+(OrdersPolicyTest.php)
+
+
+- Tarea 3
+
+Los cambios se encuentran en los ficheros:
+(navigation.blade.php[39,44,100,126,143,152], WelcomeTest.php[70])
+
+
+- Tarea 4
+
+Los cambios se encuentran en los ficheros:
+(ShowProductsTest.php[319,339,363])
+
+
+- Tarea 5
+
+Los cambios se encuentran en los ficheros:
+(OrdersTest.php[226,262,304])
+
+
+- Tarea 6
+
+Los cambios se encuentran en los ficheros:
+(OrdersTest.php[353])
+
+
+- Tarea 7
+
+Los cambios se encuentran en los ficheros:
+(show-products.blade.php[17], SearchTest.php[16,46])
+
+
+- Tarea 8
+
+Los cambios se encuentran en los ficheros:
+(CreateProductsTest.php)
+
+
+- Tarea 9
+
+Los cambios se encuentran en los ficheros:
+(EditProductsTest.php, EditColorProductsTest.php, EditSizeProductsTest.php)
+
+
+
+
+
+TAREAS SEMANA 5:
+----------------
+
+- Tarea Final 1 (optimizaciones)
+
+Los cambios de las diferentes optimizaciones se encuentran principalmente en los ficheros:
+
+(package.json, app.css, app.js, admin.blade.php, fonts/vendor/@fortawesome-free, edit-product.blade.php, flexslider.css, resources/fonts)
+
+
+
+
+
+
