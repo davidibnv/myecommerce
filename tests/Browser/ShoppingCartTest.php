@@ -312,6 +312,8 @@ class ShoppingCartTest extends DuskTestCase
         });
     }
 
+    // EJERCICIO 2 - hecha previamente la parte del test
+
     /** @test */
     public function cart_is_saved_in_database_when_logging_out_and_is_recovered_if_user_logins_again()
     {
@@ -356,4 +358,5 @@ class ShoppingCartTest extends DuskTestCase
                 ->screenshot('shopping-cart/cart-is-saved-when-logout-and-recover-when-login-again');
         });
     }
+    // Fin del test del Ejercicio 2
 }
