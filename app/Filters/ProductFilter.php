@@ -9,6 +9,8 @@ use App\Models\Subcategory;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
 
+//Ejercicio 4 - Clase ProductFilter ya refactorizada
+
 class ProductFilter extends QueryFilter
 {
     public function rules(): array
@@ -121,40 +123,50 @@ class ProductFilter extends QueryFilter
 
     public function orderByCategory($query, $direction)
     {
-        return $query->orderBy(DB::table('categories AS c')
-            ->selectRaw('c.name')
-            ->join('subcategories', 'c.id', '=', 'subcategories.category_id')
-            ->whereColumn('subcategories.id', 'products.subcategory_id'), $direction
+        return $query->orderBy(
+            DB::table('categories AS c')
+                ->selectRaw('c.name')
+                ->join('subcategories', 'c.id', '=', 'subcategories.category_id')
+                ->whereColumn('subcategories.id', 'products.subcategory_id'),
+            $direction
         );
     }
 
     public function orderBySubcategory($query, $direction)
     {
-        return $query->orderBy(Subcategory::select('name')
-            ->whereColumn('subcategories.id', 'products.subcategory_id'), $direction
+        return $query->orderBy(
+            Subcategory::select('name')
+                ->whereColumn('subcategories.id', 'products.subcategory_id'),
+            $direction
         );
     }
 
     public function orderByBrand($query, $direction)
     {
-        return $query->orderBy(Brand::select('name')
-            ->whereColumn('brands.id', 'products.brand_id'), $direction
+        return $query->orderBy(
+            Brand::select('name')
+                ->whereColumn('brands.id', 'products.brand_id'),
+            $direction
         );
     }
 
     public function orderBySizes($query, $direction)
     {
-        return $query->orderBy(Subcategory::select('name')
-            ->whereColumn('subcategories.id', 'products.subcategory_id')
-            ->where('size', '1'), $direction
+        return $query->orderBy(
+            Subcategory::select('name')
+                ->whereColumn('subcategories.id', 'products.subcategory_id')
+                ->where('size', '1'),
+            $direction
         );
     }
 
     public function orderByColors($query, $direction)
     {
-        return $query->orderBy(Subcategory::select('name')
-            ->whereColumn('subcategories.id', 'products.subcategory_id')
-            ->where('color', '1'), $direction
+        return $query->orderBy(
+            Subcategory::select('name')
+                ->whereColumn('subcategories.id', 'products.subcategory_id')
+                ->where('color', '1'),
+            $direction
         );
     }
 
@@ -177,6 +189,8 @@ class ProductFilter extends QueryFilter
 
     public function orderBySold($query, $direction)
     {
-        
+        //Falta el filtro por unidades vendidas
     }
 }
+
+//Fin de la clase

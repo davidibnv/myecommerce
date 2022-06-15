@@ -77,10 +77,11 @@ class ShowProducts extends Component
 
     public function swapSortDirection()
     {
-        return $this->sortDirection === 'ASC' ? 'DESC': 'ASC';
+        return $this->sortDirection === 'ASC' ? 'DESC' : 'ASC';
     }
 
-    public function updatedFilters() {
+    public function updatedFilters()
+    {
         $this->resetPage();
     }
 
@@ -90,6 +91,8 @@ class ShowProducts extends Component
 
         $this->resetPage();
     }
+
+    //Aquí es donde usamos ese ProductFilter
 
     public function render(ProductFilter $productFilter)
     {

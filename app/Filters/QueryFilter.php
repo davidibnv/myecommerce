@@ -5,6 +5,8 @@ namespace App\Filters;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
 
+//Ejercicio 4 - Clase QueryFilter ya refactorizada
+
 abstract class QueryFilter
 {
     protected $valid;
@@ -48,5 +50,6 @@ abstract class QueryFilter
             $query->orderBy($field, $direction);
         }
     }
-
 }
+
+//Fin de la clase
